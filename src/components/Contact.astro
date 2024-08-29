@@ -1,5 +1,52 @@
-<section>
+<section class="flex text-center md:text-start justify-center py-20 border-b border-malibu-900">
+  <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+    <div class="mt-8 overflow-hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="p-6 mr-2">
+          <h2 class="text-4xl font-bold text-malibu-200">
+            Agenda una consulta
+          </h2>
+          <p class="md:w-2/3 text-gray-300 font-semibold text-lg mt-2">
+            Obtén una consulta gratuita y garantiza el camino a la mejora 
+          </p>
+          <div class="flex flex-col items-start mt-8 p-8 gap-5">
+            <div class="flex items-center gap-2">
+              <img src="location-svgrepo-com-green.svg" class="w-8"/>
+              <span class="font-semibold text-gray-300">Guadalajara Jal</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="phone-rounded-svgrepo-com-green.svg" class="w-8"/>
+              <span class="font-semibold text-gray-300">+52 3324576982</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="email-svgrepo-com-green.svg" class="w-8"/>
+              <span class="font-semibold text-gray-300">myemail@gmail.com</span>
+            </div>
+           
+          </div>
 
+        </div>
+         <form class="p-6 flex flex-col justify-center">
+            <div class="flex flex-col">
+              <label for="name" class="hidden">Nombre</label>
+              <input type="text" name="name" id="name" placeholder="Nombre" class="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 text-gray-800 font-semibold">
+            </div>
 
+            <div class="flex flex-col mt-2">
+              <label for="email" class="hidden">Email</label>
+              <input type="email" name="email" id="email" placeholder="Correo" class="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 text-gray-800 font-semibold">
+            </div>
 
-</section>
+            <div class="flex flex-col mt-2">
+              <label for="tel" class="hidden">Number</label>
+                <input type="tel" name="tel" id="tel" placeholder="+52 3345789012" class="w-100 mt-2 py-3 px-3 rounded-lg border border-gray-400 text-gray-800 font-semibold">
+            </div>
+
+            <button type="submit" class="w-full px-6 my-10 py-2.5 text-sm font-semibold tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-green-500 rounded-lg hover:bg-transparent border-2 border-green-500">
+              Enviar
+            </button>
+          </form>
+
+      </div>
+    </div>
+  </section>
